@@ -1,0 +1,27 @@
+h3
+{
+font-size: 25px !important;
+}
+
+.btn-info:hover 
+{
+ background-color: rgb(43, 238, 228);
+}
+
+.btn-primary:hover
+{
+    background-color: rgb(232, 66, 238);
+}
+
+ canvas {
+  animation-name: colorBoom;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+ @keyframes colorBoom {
+     0% {box-shadow: 2px 2px 28px rgb(247, 78, 78);}
+     25% {box-shadow: 2px 2px 28px rgb(89, 56, 238);}
+     50% {box-shadow: 2px 2px 28px rgb(120, 194, 236);}
+     100% {box-shadow: 2px 2px 28px rgb(40, 245, 132);}
+ }
